@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Mesto</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <img class="header__logo" src="img/logo.svg" alt="Логотип">
+    </header>
+    <main class="content">
+        <section class="profile">
+            <div class="profile__content">
+                <img class="profile__logo" src="img/Avatar.png" alt="Аватар">
+                <div class="profile__info">
+                    <h1 class="profile__name">Жак-Ив Кусто</h1>
+                    <button class="profile__edit" type="button"><img class="profile__edit-icon" src="img/Edit_Button.png"
+                            alt="Редактировать_профиль"></button>
+                    <p class="profile__post">Исследователь океана</p>
+                </div>
+            </div>
+            <button class="profile__add"><img class="profile__add-ico" src="img/plus.svg" alt="Добавить"></button>
+        </section>
+        <section class="grid">
+            <div class="grid__card">
+                <img class="grid__photo" src="img/karachaevsk.png" alt="Фотокарточка">
+                <div class="grid__description">
+                    <h2 class="grid__info">Карачаевск</h2>
+                    <img class="grid__like" src="img/like.svg" alt="Нравится">
+                </div>
+            </div>
+            <div class="grid__card">
+                <img class="grid__photo" src="img/elbrus.png" alt="Фотокарточка">
+                <div class="grid__description">
+                    <h2 class="grid__info">Гора Эльбрус</h2>
+                    <img class="grid__like" src="img/like.svg" alt="Нравится">
+                </div>
+            </div>
+            <div class="grid__card">
+                <img class="grid__photo" src="img/dombai.png" alt="Фотокарточка">
+                <div class="grid__description">
+                    <h2 class="grid__info">Домбай</h2>
+                    <img class="grid__like" src="img/like.svg" alt="Нравится">
+                </div>
+            </div>
+            <div class="grid__card">
+                <img class="grid__photo" src="img/elbrus.png" alt="Фотокарточка">
+                <div class="grid__description">
+                    <h2 class="grid__info">Гора Эльбрус</h2>
+                    <img class="grid__like" src="img/like.svg" alt="Нравится">
+                </div>
+            </div>
+            <div class="grid__card">
+                <img class="grid__photo" src="img/dombai.png" alt="Фотокарточка">
+                <div class="grid__description">
+                    <h2 class="grid__info">Домбай</h2>
+                    <img class="grid__like" src="img/like.svg" alt="Нравится">
+                </div>
+            </div>
+            <div class="grid__card">
+                <img class="grid__photo" src="img/karachaevsk.png" alt="Фотокарточка">
+                <div class="grid__description">
+                    <h2 class="grid__info">Карачаево-Черкесия</h2>
+                    <img class="grid__like" src="img/like.svg" alt="Нравится">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__copyright">&copy; 2022 Mesto Russia by Leonid Olegovich</p>
+    </footer>
+    <section class="popup">
+        <div class="popup__container">
+            <img class="popup__close" src="img/Close_Icon.svg" alt="Закрыть">
+            <form class="popup__form-edit">
+            <fieldset class="popup__form">
+                <legend class="popup__info">Редактировать профиль</legend>
+                <input class="popup__input" type="text" name="name" placeholder="Жак-Ив Кусто" value="" required>
+                <input class="popup__input" type="text" name="post" placeholder="Исследователь океана" value="" required>
+                <input class="popup__save" type="submit" value="Сохранить">
+            </fieldset>
+            </form>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
