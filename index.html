@@ -19,7 +19,7 @@
                 <img class="profile__logo" src="img/Avatar.png" alt="Аватар">
                 <div class="profile__info">
                     <h1 class="profile__name">Жак-Ив Кусто</h1>
-                    <button class="profile__edit" type="button"><img class="profile__edit-icon" src="img/Edit_Button.png"
+                    <button class="profile__edit" type="button"><img class="profile__edit-icon" src="img/Edit_Button.svg"
                             alt="Редактировать_профиль"></button>
                     <p class="profile__post">Исследователь океана</p>
                 </div>
@@ -31,42 +31,42 @@
                 <img class="grid__photo" src="img/karachaevsk.png" alt="Фотокарточка">
                 <div class="grid__description">
                     <h2 class="grid__info">Карачаевск</h2>
-                    <img class="grid__like" src="img/like.svg" alt="Нравится">
+                    <button class="grid__button"><img class="grid__like grid__like_active" src="img/like.svg" alt="Нравится"></button>
                 </div>
             </div>
             <div class="grid__card">
                 <img class="grid__photo" src="img/elbrus.png" alt="Фотокарточка">
                 <div class="grid__description">
                     <h2 class="grid__info">Гора Эльбрус</h2>
-                    <img class="grid__like" src="img/like.svg" alt="Нравится">
+                    <button class="grid__button"><img class="grid__like grid__like_active" src="img/like.svg" alt="Нравится"></button>
                 </div>
             </div>
             <div class="grid__card">
                 <img class="grid__photo" src="img/dombai.png" alt="Фотокарточка">
                 <div class="grid__description">
                     <h2 class="grid__info">Домбай</h2>
-                    <img class="grid__like" src="img/like.svg" alt="Нравится">
+                    <button class="grid__button"><img class="grid__like grid__like_active" src="img/like.svg" alt="Нравится"></button>
                 </div>
             </div>
             <div class="grid__card">
                 <img class="grid__photo" src="img/elbrus.png" alt="Фотокарточка">
                 <div class="grid__description">
                     <h2 class="grid__info">Гора Эльбрус</h2>
-                    <img class="grid__like" src="img/like.svg" alt="Нравится">
+                    <button class="grid__button"><img class="grid__like grid__like_active" src="img/like.svg" alt="Нравится"></button>
                 </div>
             </div>
             <div class="grid__card">
                 <img class="grid__photo" src="img/dombai.png" alt="Фотокарточка">
                 <div class="grid__description">
                     <h2 class="grid__info">Домбай</h2>
-                    <img class="grid__like" src="img/like.svg" alt="Нравится">
+                    <button class="grid__button"><img class="grid__like grid__like_active" src="img/like.svg" alt="Нравится"></button>
                 </div>
             </div>
             <div class="grid__card">
                 <img class="grid__photo" src="img/karachaevsk.png" alt="Фотокарточка">
                 <div class="grid__description">
                     <h2 class="grid__info">Карачаево-Черкесия</h2>
-                    <img class="grid__like" src="img/like.svg" alt="Нравится">
+                    <button class="grid__button"><img class="grid__like grid__like_active" src="img/like.svg" alt="Нравится"></button>
                 </div>
             </div>
         </section>
@@ -74,7 +74,7 @@
     <footer class="footer">
         <p class="footer__copyright">&copy; 2022 Mesto Russia by Leonid Olegovich</p>
     </footer>
-    <section class="popup">
+    <div class="popup">
         <div class="popup__container">
             <img class="popup__close" src="img/Close_Icon.svg" alt="Закрыть">
             <form class="popup__form-edit">
@@ -82,11 +82,11 @@
                 <legend class="popup__info">Редактировать профиль</legend>
                 <input class="popup__input" type="text" name="name" placeholder="Жак-Ив Кусто" value="" required>
                 <input class="popup__input" type="text" name="post" placeholder="Исследователь океана" value="" required>
-                <input class="popup__save" type="submit" value="Сохранить">
+                <button class="popup__button"><img class="popup__save" src="img/Submit_Button.svg"></button>
             </fieldset>
             </form>
         </div>
-    </section>
+    </div>
     <script src="js/script.js"></script>
 </body>
 

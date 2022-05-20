@@ -1,6 +1,8 @@
 .page {
     font-family: Inter, Helvetica, sans-serif;
+    font-style: normal;
     background-color: #000;
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
+    
 }
