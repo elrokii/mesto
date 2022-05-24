@@ -1,7 +1,0 @@
-.grid__like {
-    cursor: pointer;
-    transition: .2s ease;
-}
-.grid__like:hover {
-    opacity: .5;
-}

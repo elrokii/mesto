@@ -1,6 +1,14 @@
 .grid__button{
-    max-height: 19px;
     padding: 0;
     border: none;
+    min-width: 22px;
+    min-height: 19px;
     background-color: #fff;
+    background-image: url(../../../img/like.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.grid__button:hover{
+    opacity: .5;
 }
